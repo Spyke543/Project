@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
+#from streamlit_option_menu import option_menu
 #from streamlit_navigation_bar import st_navbar
 
 
@@ -28,28 +28,29 @@ def about():
 
 
 
-selected = option_menu(
-    menu_title = "Navigation",
-    options = ["Home", "K-Pop", "Pop", "About"],
-    icons = ["house", "person-add", "person", "book"],
-    menu_icon = "cast",
-    default_index = 0,
-    orientation = "horizontal",
-)
+#selected = option_menu(
+#    menu_title = "Navigation",
+#    options = ["Home", "K-Pop", "Pop", "About"],
+#    icons = ["house", "person-add", "person", "book"],
+#    menu_icon = "cast",
+#    default_index = 0,
+#    orientation = "horizontal",
+#)
 
-if selected == "Home":
-    st.title(f"{selected}")
-    home()
+#if selected == "Home":
+#    st.title(f"{selected}")
+#    home()
     
-if selected == "K-Pop":
-    st.title(f"{selected}")
-    kpop()
+#if selected == "K-Pop":
+#    st.title(f"{selected}")
+#    kpop()
 
-if selected == "Pop":
-    st.title(f"{selected}")
-    pop()
+#if selected == "Pop":
+#    st.title(f"{selected}")
+#    pop()
 
-if selected == "About":
-    st.title(f"{selected} Page")
-    about()
+#if selected == "About":
+#    st.title(f"{selected} Page")
+#    about()
 
+about()
