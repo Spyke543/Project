@@ -10,6 +10,7 @@ def home():
 
 def kpop():
     st.write("A K-Pop Page")
+    st.write("Testing that committing is working")
 
 
 def pop():
