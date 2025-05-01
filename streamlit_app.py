@@ -1,10 +1,11 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from streamlit_navigation_bar import st_navbar
+#from streamlit_navigation_bar import st_navbar
 
 
 def home():
     st.write("The start of a streamlit project")
+    st.write("What this site is about and what can be found on it")
 
 
 def kpop():
@@ -50,3 +51,4 @@ if selected == "Pop":
 if selected == "About":
     st.title(f"{selected} Page")
     about()
+
