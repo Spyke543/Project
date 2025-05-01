@@ -51,5 +51,6 @@ if selected == "Pop":
 
 if selected == "About":
     st.title(f"{selected} Page")
+    st.write("testingtestingtesting")
     about()
 
